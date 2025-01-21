@@ -2,9 +2,9 @@ import random
 digitos = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
 long = int( input("Escribe la longuitud de la contraseña") )
-pasword = ""
+password = ""
 
 for i in range( long ):
-    pasword += random.choice(digitos)
-print("La contraseña es:", pasword)
+    password += random.choice(digitos)
+print("La contraseña es:", password)
      
