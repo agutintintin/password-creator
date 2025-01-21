@@ -6,5 +6,5 @@ pasword = ""
 
 for i in range( long ):
     pasword += random.choice(digitos)
-print("La contrseña es:", pasword)
+print("La contraseña es:", pasword)
      
